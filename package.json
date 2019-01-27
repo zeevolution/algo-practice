@@ -1,0 +1,27 @@
+{
+  "name": "algo-practice",
+  "version": "1.0.0",
+  "description": "Algorithm Coding Practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselimaneto/algo-practice.git"
+  },
+  "keywords": [
+    "javascript",
+    "algorithms",
+    "complexity"
+  ],
+  "author": "Jose Lima Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joselimaneto/algo-practice/issues"
+  },
+  "homepage": "https://github.com/joselimaneto/algo-practice#readme",
+  "dependencies": {
+    "jest": "^24.0.0"
+  }
+}
