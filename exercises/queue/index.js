@@ -1,0 +1,25 @@
+// -- Problem's Formulation
+// Create a queue data structure. The queue
+// should be a class with methods 'add' and 'remove'.
+// Adding to the queue should store an element until
+// it is removed
+// -- e.g.:
+// const q = new Queue();
+// q.add(1);
+// q.remove(); // returns 1;
+
+class Queue {
+  constructor() {
+    this.data = [];
+  }
+
+  add(record) {
+    this.data.unshift(record);
+  }
+
+  remove(record) {
+    return this.data.pop(record);
+  }
+}
+
+module.exports = Queue;
