@@ -281,7 +281,7 @@ describe("ForEach", () => {
     l.insertLast(3);
     l.insertLast(4);
 
-    l.forEach(node => {
+    l.forEach((node) => {
       node.data += 10;
     });
 
@@ -292,7 +292,7 @@ describe("ForEach", () => {
   });
 });
 
-describe.skip("for...of loops", () => {
+describe("for...of loops", () => {
   test("works with the linked list", () => {
     const l = new List();
 
