@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.algo.practice'
+group 'org.algopractice'
 version '1.0-SNAPSHOT'
 
 repositories {
