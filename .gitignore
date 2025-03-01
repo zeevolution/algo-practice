@@ -1,2 +1,5 @@
 node_modules/
 .DS_Store
+java-exercises/.idea/
+java-exercises/build/
+java-exercises/.gradle/
