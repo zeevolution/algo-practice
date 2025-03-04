@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SimpleArraySum {
+final public class SimpleArraySum {
 
     /**
      *
@@ -20,7 +20,7 @@ public class SimpleArraySum {
         return array.stream().reduce(0, Integer::sum);
     }
 
-    static class SimpleArraySumTest {
+    final static class SimpleArraySumTest {
         @Test
         void shouldReturnExpectedArraySumForGivenNonEmptyIntegerArrayTest() {
             // arrange
