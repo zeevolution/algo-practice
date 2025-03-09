@@ -53,5 +53,19 @@ public class LeftRotation {
             //assert
             assertEquals(expectedRotatedArray, actualRotatedArray.toString());
         }
+
+        @Test
+        void shouldNotRotateArrayGivenZeroNumberOfStepsTest() {
+            // arrange
+            final List<Integer> array = new ArrayList<>(List.of(1, 2, 3, 4, 5));
+            final int numberOfSteps = 0;
+            final String expectedRotatedArray  = "[1, 2, 3, 4, 5]";
+
+            //act
+            final List<Integer> actualRotatedArray = rotateLeft(numberOfSteps, array);
+
+            //assert
+            assertEquals(expectedRotatedArray, actualRotatedArray.toString());
+        }
     }
 }
