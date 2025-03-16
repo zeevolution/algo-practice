@@ -3,12 +3,15 @@ package org.exercises.intermediate;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class DynamicArray {
+final public class DynamicArray {
+
+    private static final int QUERY_TYPE_ONE = 1;
+
+    private static final int QUERY_TYPE_TWO = 2;
 
     /*
      * Function Description
@@ -25,11 +28,6 @@ public class DynamicArray {
      *  1. INTEGER n
      *  2. 2D_INTEGER_ARRAY queries
      */
-
-    private static final int QUERY_TYPE_ONE = 1;
-
-    private static final int QUERY_TYPE_TWO = 2;
-
     public static List<Integer> dynamicArray(final int n, final List<List<Integer>> queries) {
         // Write your code here
         int lastAnswer = 0;
@@ -55,7 +53,7 @@ public class DynamicArray {
         return answers;
     }
 
-    static class DynamicArrayTest {
+    final static class DynamicArrayTest {
 
         @Test
         void shouldReturnExpectedAnswersForGivenQueriesTest() {
